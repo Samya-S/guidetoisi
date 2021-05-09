@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guide to ISI</title>
-  <link rel="icon" href="isi-icon.gif" type="image/gif">
+  <link rel="icon" href="images/isi-icon.gif" type="image/gif">
   <script>
     function toggleNavOpen() {
       document.querySelector("nav").classList.toggle("nav--open");
@@ -24,8 +24,8 @@
 
 <div id="HOME">
   <div style="position: relative; text-align: center; color: white;">
-    <img src="homecover.jpg" alt="" class="homecover" style="box-sizing: border-box;">
-    <img src="homecover-mobile.jpg" alt="" class="homecover-mobile" style="box-sizing: border-box;">
+    <img src="images/homecover.jpg" alt="" class="homecover" style="box-sizing: border-box;">
+    <img src="images/homecover-mobile.jpg" alt="" class="homecover-mobile" style="box-sizing: border-box;">
     <header>
       <div class="menu-toggle">
         <button class="NavOpenButton" onclick="toggleNavOpen()"><i class="fa fa-bars NavOpenButton" aria-hidden="true"></i></button>
@@ -41,19 +41,21 @@
           <li><a href="#" onclick="return show('References','HOME');"><b>References</b></a></li>
           <li><a href="https://www.isical.ac.in/" target="_blank"><b>ISI Official Website</b></a></li>
         </ul>
-      </nav>
-      
+      </nav>      
     </header>
-    <div class="centered" style="position: absolute; color: black;"><p><h1 style="color: black;">A Step Ahead</h1><h3>&copy Samya Saha</h3></p></div>
+
+    <div class="centered" style="position: absolute; color: black;">
+      <p><h1 style="color: black;">A Step Ahead</h1><h3>&copy Samya Saha</h3></p>
+    </div>
   </div>
 
-  <div>
-  <h1 style="padding: 2%;">Site Content</h1>
-  <div class="container">
-    <p><h2 style="margin-top: -4.5%;">About ISI</h2><img src="aboutisi.jpg" alt=""><a href="about-isi.html"><button class="button1">Find out more</button></a></p>
-    <p><h2>Syllabus</h2><img src="syllabus.jpg" alt=""><a href="https://www.isical.ac.in/~admission/Syllabus-And-QP.html" target="_blank"><button class="button1">Find out more</button></a></p>
-    <p><h2>References</h2><img src="references.jpg" alt=""><a href="references.html"><button class="button1">Find out more</button></a></p>
-  </div>
+  <div style="padding: 2%;">
+    <h1 style="margin: 0;">Site Content</h1>
+    <div class="flex-container">
+      <div><h2>About ISI</h2><img src="images/aboutisi.jpg" alt=""><a href="#" onclick="return show('About ISI','HOME');"><button class="button1">Find out more</button></a></div>
+      <div><h2>Syllabus</h2><img src="images/syllabus.jpg" alt=""><a href="https://www.isical.ac.in/~admission/Syllabus-And-QP.html" target="_blank"><button class="button1">Find out more</button></a></div>
+      <div><h2>References</h2><img src="images/references.jpg" alt=""><a href="#" onclick="return show('References','HOME');"><button class="button1">Find out more</button></a></div>
+    </div>
   </div>
     
   <div style="background-color: rgba(212, 212, 212, 0.26); padding: 2%;">
@@ -130,30 +132,46 @@
   </header>
 
   <div class="about">
-  <h1>About ISI</h1>
-  <img src="isi.jpg" alt="">
-  <div class="aboutbody">
-  <h2>INTRODUCTION</h2>
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Indian Statistical Institute (ISI) is a public research university which is recognized as institute of national importance in 1959 act of the Indian parliament. It grew out of the Statistical Laboratory set up by Prasanta Chandra Mahalanobis in Presidency College, Kolkata.  Established in 1931, this university of India is one of the oldest and  most prestigious institutions focused on statistics, and its early  reputation led it to being adopted as a model for the first US institute  of Statistics set up at the Research Triangle, North Carolina by Gertrude Mary Cox.</h4>
-  <h2>OBJECTIVES</h2>
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">The major objectives of the ISI are to facilitate research and training of Statistics, to indulge in  development of statistical theory and in application of statistical  techniques – in the scenarios of planning at national level and in  theoretical development of natural and social sciences, to participate  in the process of data collection and analysis, to operate related  projects in planning and improvement of efficiency of management and  production. 
-  <br>The Sanskrit phrase भिन्नेष्वैक्यस्य दर्शणम् (Bhinneswaykyasya  Darshanam), which literally means the philosophy of unity in diversity,  is incorporated in the logo of the institute, and is the motto of ISI.</h4>
-  <h2>ACADEMICS</h2>
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Traditionally, ISI offers fewer programs (and admits fewer students)  than most other degree granting academic institutions. Following the  empowerment for granting degrees in the subject of Statistics as per the  ISI Act 1959, in 1960, ISI initiated bachelor level degree program  Bachelor of Statistics and master level degree course Master of  Statistics, and also began awarding research level degrees such as PhD  and DSc. Later, ISI started offering Master of Technology (MTech) courses in  Computer Science and in Quality, Reliability & Operations Research  (QR&OR); these courses got recognition from All India Council for Technical Education (AICTE). As ISI Act of 1959 was amended by the Parliament of India in 1995, ISI  was empowered to confer degrees and diplomas in subjects such as  Mathematics, Quantitative Economics, Computer Science, and other  subjects related to Statistics and Operations Research as determined by  ISI from time to time. Apart from the degree courses, ISI offers few diploma and certificate  courses, special diploma courses for international students via ISEC,  and special courses in collaboration with CSO for training probationary officers of Indian Statistical Service (ISS).</h4>
-  <h2>ADMISSION</h2>
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Applicants of all degree courses are required to go through written admission tests and interviews. ISI conducts the written tests at various examination centres across India. Only in few cases, candidates may get called for the interview  directly, viz. applicants of MTech Computer Science course having a GATE score above a threshold. Candidates applying to doctoral research programmes who have been  awarded (or qualified for) a Junior Research Fellowship by UGC / CSIR / NBHM etc are also required to clear the ISI admission test or an equivalent  separate test and interview conducted by the relevant JRF selection  committee of the institute if they wish to obtain a Ph.D from Indian  Statistical Institute.</h4>
-  <h2>RANKINGS</h2>
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">According to India Education Review, no Indian university is in the world's top 200 universities. The ascribed ranking of ISI is 386. The web ranking of this institute, according to 4ICU (4 International Colleges and Universities), is 1693. According to the web ranking published by Webometrics Ranking of World Universities, ISI currently holds the world rank of 1352. In the subject-wise academic world ranking of Computer Science, Indian Statistical Institute features  in 101—150 category. The Indian Statistical Institute, Kolkata is ranked 2nd in Computer  Science research  by mean citation rate, p-Index, h-index  among all  universities in India.</h4> 
-  <h2>CAMPUSES</h2>
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">ISI has its headquarters and the main campus in Kolkata. It has other  centres in New Delhi, Bangalore, Chennai and smaller units in Hyderabad,  Mumbai, Coimbatore, Giridih, Pune and Vadodara. Tezpur, the 4th centre of ISI was inaugurated in 2011. </h4> 
-  <h2>STUDENT FEST</h2>  
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Integration is the annual techno-cultural fest of Indian Statistical  Institute, Kolkata usually held during the first and second weekend of  January each year. It is one of the biggest student fests in Kolkata,  and attracts participation from all over the world. Also the  performances of great artists are always a center of attraction for all. 
-  <br>Chaos is the annual techno-cultural fest of Indian Statistical  Institute, Bangalore usually held during the last weekend of March each  year. It is one of the biggest student fests in Bangalore, and attracts  participation from all over the world. Limit, an International  Mathematics Olympiad is a part of Chaos. A lot of Students throughout  the World take part in Limit. Also various other Events are held during  Chaos which includes Gaming, Cultural Programmes, Quiz, Debate and much  more. </h4>   
-  <h2>PLACEMENTS</h2> 
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Alumni of ISI – including recipients of PhD degree – are employed in  government and semi–government departments, industrial establishments,  research institutions, in India and other countries. There is a placement cell in ISI Kolkata that organizes campus interviews by prospective employers in various campuses of ISI. Since recent past, a high percentage of ISI alumni gets absorbed into jobs in analytics, banking, finance and software industry. </h4>
-  <h2>ALUMNI</h2>
-  <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Many students and research scholars of ISI pursued a career in  academics, and have excelled in the fields of statistics, mathematics,  probability theory, computer science and economics. In statistics alumni  of ISI who have been elected a Fellow of the American Statistical Association include P. V. Sukhatme (1950) and K. R. Nair (1951). There are many other notable ones including Samarendra Kumar Mitra, S. R. S. Varadhan, Debabrata Basu, K. R. Parthasarathy, Jayanta Kumar Ghosh, Bimal K. Roy, Sankar Kumar Pal, B. L. S. Prakasa Rao, G. Jogesh Babu, Thiruvenkatachari Parthasarathy, Gopinath Kallianpur, Rajeeva Karandikar, Ravindra Khattree, Sanghamitra Bandyopadhyay, Palash Sarkar, J. S. Rao, Kesar Singh, Ranajit Chakraborty, Partha Pratim Majumder, Probal Chaudhuri, Arup Bose, Debashish Goswami, Ritabrata Munshi, Sourav Chatterjee, Jean Drèze, Sucharit Sarkar. ISI alumni notable for non-academic career include politicians Subramanian Swamy and Dipankar Bhattacharya.</h4>
-  </div>
+    <h1>About ISI</h1>
+    <img src="images/isi.jpg" alt="">
+    <div class="">
+      <div>
+        <h2>INTRODUCTION</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Indian Statistical Institute (ISI) is a public research university which is recognized as institute of national importance in 1959 act of the Indian parliament. It grew out of the Statistical Laboratory set up by Prasanta Chandra Mahalanobis in Presidency College, Kolkata.  Established in 1931, this university of India is one of the oldest and  most prestigious institutions focused on statistics, and its early  reputation led it to being adopted as a model for the first US institute  of Statistics set up at the Research Triangle, North Carolina by Gertrude Mary Cox.</h4>
+      </div>
+      <div>
+        <h2>OBJECTIVES</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">The major objectives of the ISI are to facilitate research and training of Statistics, to indulge in  development of statistical theory and in application of statistical  techniques – in the scenarios of planning at national level and in  theoretical development of natural and social sciences, to participate  in the process of data collection and analysis, to operate related  projects in planning and improvement of efficiency of management and  production. <br>The Sanskrit phrase भिन्नेष्वैक्यस्य दर्शणम् (Bhinneswaykyasya  Darshanam), which literally means the philosophy of unity in diversity,  is incorporated in the logo of the institute, and is the motto of ISI.</h4>
+      </div>
+      <div>
+        <h2>ACADEMICS</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Traditionally, ISI offers fewer programs (and admits fewer students)  than most other degree granting academic institutions. Following the  empowerment for granting degrees in the subject of Statistics as per the  ISI Act 1959, in 1960, ISI initiated bachelor level degree program  Bachelor of Statistics and master level degree course Master of  Statistics, and also began awarding research level degrees such as PhD  and DSc. Later, ISI started offering Master of Technology (MTech) courses in  Computer Science and in Quality, Reliability & Operations Research  (QR&OR); these courses got recognition from All India Council for Technical Education (AICTE). As ISI Act of 1959 was amended by the Parliament of India in 1995, ISI  was empowered to confer degrees and diplomas in subjects such as  Mathematics, Quantitative Economics, Computer Science, and other  subjects related to Statistics and Operations Research as determined by  ISI from time to time. Apart from the degree courses, ISI offers few diploma and certificate  courses, special diploma courses for international students via ISEC,  and special courses in collaboration with CSO for training probationary officers of Indian Statistical Service (ISS).</h4>
+      </div>
+      <div>
+        <h2>ADMISSION</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Applicants of all degree courses are required to go through written admission tests and interviews. ISI conducts the written tests at various examination centres across India. Only in few cases, candidates may get called for the interview  directly, viz. applicants of MTech Computer Science course having a GATE score above a threshold. Candidates applying to doctoral research programmes who have been  awarded (or qualified for) a Junior Research Fellowship by UGC / CSIR / NBHM etc are also required to clear the ISI admission test or an equivalent  separate test and interview conducted by the relevant JRF selection  committee of the institute if they wish to obtain a Ph.D from Indian  Statistical Institute.</h4>
+      </div>
+      <div>
+        <h2>RANKINGS</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">According to India Education Review, no Indian university is in the world's top 200 universities. The ascribed ranking of ISI is 386. The web ranking of this institute, according to 4ICU (4 International Colleges and Universities), is 1693. According to the web ranking published by Webometrics Ranking of World Universities, ISI currently holds the world rank of 1352. In the subject-wise academic world ranking of Computer Science, Indian Statistical Institute features  in 101—150 category. The Indian Statistical Institute, Kolkata is ranked 2nd in Computer  Science research  by mean citation rate, p-Index, h-index  among all  universities in India.</h4>
+      </div>
+      <div>
+        <h2>CAMPUSES</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">ISI has its headquarters and the main campus in Kolkata. It has other  centres in New Delhi, Bangalore, Chennai and smaller units in Hyderabad,  Mumbai, Coimbatore, Giridih, Pune and Vadodara. Tezpur, the 4th centre of ISI was inaugurated in 2011.</h4>
+      </div>
+      <div>
+        <h2>STUDENT FEST</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Integration is the annual techno-cultural fest of Indian Statistical  Institute, Kolkata usually held during the first and second weekend of  January each year. It is one of the biggest student fests in Kolkata,  and attracts participation from all over the world. Also the  performances of great artists are always a center of attraction for all. <br>Chaos is the annual techno-cultural fest of Indian Statistical  Institute, Bangalore usually held during the last weekend of March each  year. It is one of the biggest student fests in Bangalore, and attracts  participation from all over the world. Limit, an International  Mathematics Olympiad is a part of Chaos. A lot of Students throughout  the World take part in Limit. Also various other Events are held during  Chaos which includes Gaming, Cultural Programmes, Quiz, Debate and much  more. </h4>
+      </div>
+      <div>
+        <h2>PLACEMENTS</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Alumni of ISI – including recipients of PhD degree – are employed in  government and semi–government departments, industrial establishments,  research institutions, in India and other countries. There is a placement cell in ISI Kolkata that organizes campus interviews by prospective employers in various campuses of ISI. Since recent past, a high percentage of ISI alumni gets absorbed into jobs in analytics, banking, finance and software industry. </h4>
+      </div>
+      <div>
+        <h2>ALUMNI</h2>
+        <h4 style="text-align: justify; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Many students and research scholars of ISI pursued a career in  academics, and have excelled in the fields of statistics, mathematics,  probability theory, computer science and economics. In statistics alumni  of ISI who have been elected a Fellow of the American Statistical Association include P. V. Sukhatme (1950) and K. R. Nair (1951). There are many other notable ones including Samarendra Kumar Mitra, S. R. S. Varadhan, Debabrata Basu, K. R. Parthasarathy, Jayanta Kumar Ghosh, Bimal K. Roy, Sankar Kumar Pal, B. L. S. Prakasa Rao, G. Jogesh Babu, Thiruvenkatachari Parthasarathy, Gopinath Kallianpur, Rajeeva Karandikar, Ravindra Khattree, Sanghamitra Bandyopadhyay, Palash Sarkar, J. S. Rao, Kesar Singh, Ranajit Chakraborty, Partha Pratim Majumder, Probal Chaudhuri, Arup Bose, Debashish Goswami, Ritabrata Munshi, Sourav Chatterjee, Jean Drèze, Sucharit Sarkar. ISI alumni notable for non-academic career include politicians Subramanian Swamy and Dipankar Bhattacharya.</h4>
+      </div>
+    </div>
   </div>
 
 </div>
@@ -178,23 +196,15 @@
         <li><a href="https://www.isical.ac.in/" target="_blank"><b>ISI Official Website</b></a></li>
       </ul>
     </nav>
-    
-    <script>
-    function toggleNavOpen() {
-      document.querySelector("nav").classList.toggle("nav--open");
-    }
-    function toggleNavClose() {
-      document.querySelector("nav").classList.toggle("nav--open");
-    }
-    </script>
-
   </header>
 
-  <h1>References/Books</h1>
-  <div class="container">
-    <p><h2 style="margin-top: -4.5%;">Previous Years' Questions</h2><img src="tomato.jpg" alt=""><h4 style="text-align: center; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Test of Mathematics at the 10 + 2 level <br> Indian Statistical Institute <br> Published by Affiliated East-West Press Pvt. Ltd.</h4><br><a href="https://drive.google.com/file/d/1GZrH2116JRNKKqXmXrn-voxwYXXWi1-r/view" target="_blank"><button class="button1">Download PDF</button></a></p>
-    <p><h2>An Excursion in Mathematics</h2><img src="excursion.jpg" alt=""><h4 style="text-align: center; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">An Excursion in Mathematics <br>Publisher: Bhaskaracharya Pratishthana (Pune) </h4><br><a href="https://drive.google.com/file/d/18oe5j2j8n7PBCU5PKy3SuuX2HT1NQpQA/view" target="_blank"><button class="button1">Download PDF</button></a></p>
-    <p><h2>Pre-College Mathematics</h2><img src="precollege.jpg" alt=""><h4 style="text-align: center; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Challenge and Thrill of Pre-College Mathematics <br>Author: V Krishnamurthy <br>Publisher: New Age International </h4><br><a href="https://drive.google.com/file/d/1VYhVJvB-_1mnmpTfmWpVdikYakZtfHPk/view" target="_blank"><button class="button1">Download PDF</button></a></p>
+  <div style="padding: 2%;">
+    <h1 style="margin: 0;">References/Books</h1>
+    <div class="flex-container">
+      <div><h2>Previous Years' Questions</h2><img src="images/tomato.jpg" alt=""><h4 style="text-align: center; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Test of Mathematics at the 10 + 2 level <br> Indian Statistical Institute <br> Published by Affiliated East-West Press Pvt. Ltd.</h4><br><a href="https://drive.google.com/file/d/1GZrH2116JRNKKqXmXrn-voxwYXXWi1-r/view" target="_blank"><button class="button1">Download PDF</button></a></div>
+      <div><h2>An Excursion in Mathematics</h2><img src="images/excursion.jpg" alt=""><h4 style="text-align: center; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">An Excursion in Mathematics <br>Publisher: Bhaskaracharya Pratishthana (Pune) </h4><br><a href="https://drive.google.com/file/d/18oe5j2j8n7PBCU5PKy3SuuX2HT1NQpQA/view" target="_blank"><button class="button1">Download PDF</button></a></div>
+      <div><h2>Pre-College Mathematics</h2><img src="images/precollege.jpg" alt=""><h4 style="text-align: center; font-weight:normal; font-family:Arial, Helvetica, sans-serif; line-height: 150%;">Challenge and Thrill of Pre-College Mathematics <br>Author: V Krishnamurthy <br>Publisher: New Age International </h4><br><a href="https://drive.google.com/file/d/1VYhVJvB-_1mnmpTfmWpVdikYakZtfHPk/view" target="_blank"><button class="button1">Download PDF</button></a></div>
+    </div>
   </div>
 
 </div>
@@ -207,7 +217,7 @@
     <a href="https://www.facebook.com/profile.php?id=100012362761333" target="_blank" class="fa fa-facebook"></a>
     <a href="https://www.twitter.com/SamyaSaha8939?s=09" target="_blank" class="fa fa-twitter"></a>
     <a href="https://www.youtube.com/channel/UCDGNdFdN619aOTVkOht6YvA" target="_blank" class="fa fa-youtube"></a>
-    <a href="https://www.instagram.com/amante_de_la_vida_samya/?r=nametag" target="_blank" class="fa fa-instagram"></a><br>
+    <a href="https://www.instagram.com/the.affable.one/?r=nametag" target="_blank" class="fa fa-instagram"></a><br>
     Copyright &copy 2020-21 <b><i>Samya Saha</i></b><br>- All Rights Reserved.<br><br>
     <h6>Source code available on Github: <a href="https://github.com/Samya-S/guidetoisi" target="_blank" style="text-decoration: none;">Click here</a></h6>
   </footer>

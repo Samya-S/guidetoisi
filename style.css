@@ -278,9 +278,12 @@ nav a:active{
         margin-top: 30px;
     }
 }
-.container{
-    text-align: center; 
-    padding: 2%;
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .container img{
     width: 100%;
