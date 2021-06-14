@@ -7,7 +7,6 @@ body{
     white-space: nowrap;
     border-right: 3px solid black;
     animation-iteration-count: infinite;
-
 }
 @keyframes type {
     0%{width: 0ch}    
@@ -307,6 +306,7 @@ h1{
     font-family:'Times New Roman', Times, serif;
     text-align: center; 
     color: rgb(139, 94, 94);
+    isolation: isolate;
 }
 h2{
     font-weight:normal;
@@ -376,7 +376,7 @@ footer{
     background-color: rgba(212, 212, 212, 0.26);
   }
   /*social-media-buttons*/
-  .fa {padding: 7px;border-radius: 50%;width: 17px;font-size: 15px;text-align: center;text-decoration: none;margin: 5px 2px;}
+  .fa {padding: 7px;border-radius: 50%;width: 17px;font-size: 15px;text-align: center;text-decoration: none;margin: 5px 2px;isolation: isolate;}
   .fa:hover {opacity: 0.7;}
   .fa-facebook {background: #3b5998;color: white;}
   .fa-twitter {background: #55acee;color: white;}
