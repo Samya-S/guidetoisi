@@ -296,6 +296,9 @@ nav a:active{
     justify-content: center;
     align-items: center;
 }
+.flex-container div{
+    padding: 1%;
+}
 .flex-container img{
     width: 100%;
 }
