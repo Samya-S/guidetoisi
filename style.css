@@ -7,6 +7,18 @@ body{
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
+.welcomeimg{
+    background: url(images/homecover.jpg) no-repeat center; 
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+.centered{
+    top: 50%; left: 50%; transform: translate(-50%, -50%); 
+}
+.darkmode-toggle{
+    z-index: 3;
+}
 .typing-animation{
     animation: type 2.5s steps(13);
     overflow: hidden;
@@ -82,16 +94,16 @@ nav a:active{
     .menu-toggle{
         display: none;
     }
-    .homecover{
+    /* .homecover{
         display:block;
         width: 100%;
     }
     .homecover-mobile{
        display:none;
-    }
+    } */
     .centered{
         font-size: 150%;
-        top: 50%; left: 50%; transform: translate(-50%, -50%); 
+        /* top: 50%; left: 50%; transform: translate(-50%, -50%);  */
     }
 }
 @media screen and (max-width: 1140px){
@@ -160,16 +172,16 @@ nav a:active{
     header nav ul li a.active{
         color: rgb(139, 94, 94);
     }
-    .homecover{
+    /* .homecover{
         display:none;
        }
     .homecover-mobile{
         display:block;
         width: 100%;
-    }
+    } */
     .centered{
         font-size: 150%;
-        top: 70%; left: 50%; transform: translate(-50%, -70%); 
+        /* top: 70%; left: 50%; transform: translate(-50%, -70%);  */
     }
 }
 @media screen and (min-width: 680px){
@@ -222,7 +234,7 @@ nav a:active{
     }
     .centered{
         font-size: 110%;
-        top: 70%; left: 50%; transform: translate(-50%, -70%); 
+        /* top: 70%; left: 50%; transform: translate(-50%, -70%);  */
     }
     .about{
         padding-left: 5%; padding-right: 5%;
@@ -336,7 +348,9 @@ a button{
 .button1{
     background-color: rgb(197, 197, 197);
     font-size: 90%;
-    padding: 2%;
+    padding: 7px;
+    padding-left: 4%;
+    padding-right: 4%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
