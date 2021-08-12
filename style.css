@@ -37,8 +37,7 @@ body{
     100%{width: 13ch;}
 }
 header{
-    background-color: whitesmoke;
-    opacity: 0.95;
+    background-color: rgba(245, 245, 245, 0.95);
     font-size: 120%;
     position:fixed;
     z-index: 9;
@@ -46,6 +45,7 @@ header{
     width: 100%;
     padding: 0 100px;
     box-sizing: border-box;
+    transition: top 0.3s;
 }
 header p{
     color: rgb(139, 94, 94);
