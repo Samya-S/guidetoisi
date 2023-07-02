@@ -32,6 +32,7 @@ body{
     z-index: 3;
 }
 .typing-animation{
+    font-family: monospace;
     animation: type 2.5s steps(13);
     overflow: hidden;
     white-space: nowrap;
